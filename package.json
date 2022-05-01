@@ -11,6 +11,7 @@
   },
   "devDependencies": {
     "aws-cdk": "2.22.0",
+    "esbuild": "^0.14.38",
     "jest": "^26.4.2"
   },
   "dependencies": {
