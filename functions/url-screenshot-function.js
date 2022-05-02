@@ -27,7 +27,8 @@ exports.handler = async (event)=>{
         headers:{
             "Content-type":"image/png",
         },
-        body: buffer,
+        body: buffer.toString('base64'),
+        isBase64Encoded: true,
     };
 
     return response;
