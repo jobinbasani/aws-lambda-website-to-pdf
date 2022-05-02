@@ -1,5 +1,5 @@
 {
-  "name": "lambda-screenshot",
+  "name": "website-to-pdf",
   "version": "0.1.0",
   "bin": {
     "lambda-screenshot": "bin/website-to-pdf.js"

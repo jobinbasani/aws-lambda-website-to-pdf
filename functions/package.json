@@ -1,12 +1,12 @@
 {
-  "name": "functions",
+  "name": "website-to-pdf-function",
   "version": "1.0.0",
-  "description": "",
+  "description": "Lambda to convert a website to PDF",
   "main": "website-to-pdf-function.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
+  "author": "jobinbasani",
   "license": "ISC",
   "dependencies": {
     "chrome-aws-lambda": "^10.1.0",
