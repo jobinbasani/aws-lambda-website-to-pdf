@@ -1,7 +1,7 @@
 FROM public.ecr.aws/lambda/nodejs:14
 
-COPY url-screenshot-function.js package.json package-lock.json ${LAMBDA_TASK_ROOT}
+COPY website-to-pdf-function.js package.json package-lock.json ${LAMBDA_TASK_ROOT}
 
 RUN npm install
 
-CMD [ "url-screenshot-function.handler" ]
+CMD [ "website-to-pdf-function.handler" ]

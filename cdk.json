@@ -1,5 +1,5 @@
 {
-  "app": "node bin/lambda-screenshot.js",
+  "app": "node bin/website-to-pdf.js",
   "watch": {
     "include": [
       "**"

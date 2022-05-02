@@ -1,0 +1,33 @@
+{
+  "extends": "airbnb-base",
+  "plugins": [
+    "import",
+    "json-format"
+  ],
+  "rules": {
+    "import/no-unresolved": [
+      "error",
+      {
+        "ignore": [ "config/", "generators/", "managers/", "settings/"]
+      }
+    ],
+    "import/no-extraneous-dependencies": ["off", {"packageDir": "./publication"}],
+    "prefer-destructuring": ["error", {"object": false, "array": false}],
+    "function-paren-newline": ["error", "consistent"],
+    "max-len": ["error", { "code": 150 }],
+    "no-new": "off"
+  },
+  "env": {
+    "mocha": true
+  },
+  "overrides": [
+    {
+      "files": [
+        "**/__tests__/**"
+      ],
+      "env": {
+        "jest": true
+      }
+    }
+  ]
+}

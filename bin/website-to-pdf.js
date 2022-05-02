@@ -1,10 +1,10 @@
 #!/usr/bin/env node
 
 const cdk = require('aws-cdk-lib');
-const { LambdaScreenshotStack } = require('../lib/lambda-screenshot-stack');
+const { WebsiteToPDFStack } = require('../lib/website-to-pdf-stack');
 
 const app = new cdk.App();
-new LambdaScreenshotStack(app, 'LambdaScreenshotStack', {
+new WebsiteToPDFStack(app, 'WebsiteToPDFStack', {
   /* If you don't specify 'env', this stack will be environment-agnostic.
    * Account/Region-dependent features and context lookups will not work,
    * but a single synthesized template can be deployed anywhere. */
