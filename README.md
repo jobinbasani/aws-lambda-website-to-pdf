@@ -14,4 +14,4 @@ This uses the [Function URL](https://aws.amazon.com/blogs/aws/announcing-aws-lam
 Check the CDK deployment output to find the value of `WebsiteToPDFStack.websiteToPDFFunctionURL`.
 Use the `url` query parameter to provide the URL of the website to be converted to PDF.
 
-For example: `https://zi6tmtduvolpw7go7wuydsk3de0avanr.lambda-url.ca-central-1.on.aws/?url=https://jobinbasani.com/`
+For example: `https://youruniqueid.lambda-url.ca-central-1.on.aws/?url=https://jobinbasani.com/`
